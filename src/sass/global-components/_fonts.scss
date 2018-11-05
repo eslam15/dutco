@@ -1,0 +1,44 @@
+$font-weight-thin: 100;
+$font-weight-exlight: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-exbold: 800;
+$font-weight-black: 900;
+// Regular
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+// Light
+@font-face {
+    font-family: Montserrat-Light;
+    src: url('../fonts/Montserrat-Light.ttf');
+}
+
+// Bold
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+// Semi Bold
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+
+// Medium
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+// Signture
+@font-face {
+    font-family: Personal;
+    src: url('../fonts/Notera_PersonalUseOnly.ttf');
+}

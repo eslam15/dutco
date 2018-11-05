@@ -1,0 +1,50 @@
+.navbar {
+    background-color: transparent !important;
+    padding: 0 0 0 20px;
+    .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: $mainYellow;
+        width: 60%;
+        padding: 30px 10px;
+        li {
+            a {
+                @include transition(0.2s all);
+                font-family: Montserrat;
+                font-size: 15px;
+                color: $mainBlue;
+                padding: 5px 2px !important;
+                border-bottom: 3px solid transparent;
+                text-transform: uppercase;
+                position: relative;
+                &:after {
+                    content: "";
+                    width: 4px;
+                    height: 4px;
+                    background-color: $white;
+                    position: absolute;
+                    top: 14px;
+                    right: -25px;
+                }
+            }
+            &:last-child {
+                a {
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+            &.active {
+                a {
+                    font-family: Montserrat-Bold;
+                    border-bottom: 3px solid $mainBlue;
+                }
+            }
+            &:hover {
+                a {
+                    border-bottom: 3px solid $mainBlue;
+                }
+            }
+        }
+    }
+}
